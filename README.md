@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> **This repository is archived.** `plugin-stt-faster-whisper` now lives in
+> [speechmux/speechmux](https://github.com/speechmux/speechmux/tree/main/plugin-stt-faster-whisper), with its
+> full history. Open issues and pull requests there.
+
 # speechmux/plugin-stt-faster-whisper
 
 [faster-whisper](https://github.com/SYSTRAN/faster-whisper) STT engine plugin for SpeechMux. Depends on `speechmux-plugin-stt` for the `InferenceEngine` Protocol and `TranscribeResult` type. `FasterWhisperEngine` satisfies the Protocol via structural subtyping (duck typing) — no class inheritance. It is registered via `entry_points` so the base server discovers it automatically with `server.engine: faster_whisper` in the config YAML.
